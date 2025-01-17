@@ -45,6 +45,9 @@ let one=100;
 
 // console.log(2**3) for power
 
+console.log("2" + 3+ 3);
+
+
 console.log(one);
 one++;
 console.log(one);
