@@ -4,6 +4,21 @@ console.log(typeof(score));
 
 let valueInNumber=Number(score);
 
+//  "33" Number
+//  "33a" NaN not a number
+//  true - 1 false - 0
+//  NULL - 0
+//  undefined NaN
+
+let follow = 1
+let booleanfollow = Boolean(follow)
+
+console.log(follow);
+console.log(typeof booleanfollow)
+
+//  1 - true 0 - false
+//  "sflg" - true "" false
+
 let age=22;
 let s=String(age);
 
