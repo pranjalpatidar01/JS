@@ -43,6 +43,8 @@ console.log(s1+s2);
 // when we add a string with any number then it will convert into string
 let one=100;
 
+// console.log(2**3) for power
+
 console.log(one);
 one++;
 console.log(one);
