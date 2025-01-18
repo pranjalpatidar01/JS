@@ -46,7 +46,9 @@ console.log("B", myArr);
 const myn2 = myArr.splice(2,4)
 
 console.log(myn2);
-console.log(myArr);
+console.log(myArr
+    
+);
 
 
 
