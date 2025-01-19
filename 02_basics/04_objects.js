@@ -40,4 +40,19 @@ console.log(tinderUser.hasOwnProperty("name"));
 console.log(tinderUser.hasOwnProperty("name1"));
 
 
+// destructuring of object
+
+const course = {
+    name : "Js",
+    price : "1000",
+    courseInstructor : "Hitesh"
+}
+
+// const {courseInstructor} = course this is correct 
+
+const {courseInstructor : Instructor} = course
+
+console.log(Instructor);
+
+
 
