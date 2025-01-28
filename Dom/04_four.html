@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        .bg-black{
+            background-color: #121212;
+            color : #fff
+        }
+    </style>
+</head>
+<body class = 'bg-black'>
+    <ul class ="language">
+        <li>js</li>
+        <li>c++</li>
+        <li>c</li>
+
+    </ul>
+</body>
+<script>
+    function addLan(langName) {
+            const li = document.createElement('li');
+            li.innerHTML = `${langName}`;
+            document.querySelector('.language').appendChild(li)
+        }
+        addLan('python');
+        addLan('Web')
+</script>
+</html>
