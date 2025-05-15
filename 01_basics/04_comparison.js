@@ -1,6 +1,6 @@
 //> , < ,>= ,<= , == ,!=
 //  === strict check means datatypes need to be same
-// == not strict value need to be same datatype can be different 
+// == not strict, value need to be same datatype can be different 
 
 //while comparing make sure that datatypes should be same
 
