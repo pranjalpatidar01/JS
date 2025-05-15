@@ -17,7 +17,7 @@ console.log(follow);
 console.log(typeof booleanfollow)
 
 //  1 - true 0 - false
-//  "sflg" - true "" false
+//  "sflg" -> true ""  -> false
 
 let age=22;
 let s=String(age);
